@@ -1,0 +1,731 @@
+# Copyright (C) 2018 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mediawebp\n"
+"POT-Creation-Date: 2018-10-29 15:49:38+00:00\n"
+"PO-Revision-Date: 2018-10-29 15:50+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: classes/class-ajax.php:132 classes/class-notice.php:118
+msgctxt "post.php webp meta box"
+msgid "This media has linked webp images."
+msgstr "Dieses Medium hat Webp-Bilder verknüpft."
+
+#: classes/class-ajax.php:133 classes/class-notice.php:119
+msgctxt "post.php webp meta box"
+msgid "Main Image File Size"
+msgstr "Hauptbild Dateigröße"
+
+#: classes/class-forms.php:94
+msgctxt "jQuery Alert"
+msgid "All .webp images have been successfully created."
+msgstr "Alle .webp Bilder wurden erfolgreich erstellt."
+
+#: classes/class-forms.php:95
+msgctxt "jQuery Alert"
+msgid "All .webp images have been successfully deleted."
+msgstr "Alle .webp-Bilder wurden erfolgreich gelöscht."
+
+#: classes/class-forms.php:96
+msgctxt "jQuery Alert"
+msgid "Checking"
+msgstr "Überprüfung"
+
+#: classes/class-forms.php:97
+msgctxt "jQuery Alert"
+msgid "Creating webp images, please wait."
+msgstr "Erstellen Sie Webp-Bilder, bitte warten Sie."
+
+#: classes/class-forms.php:98
+msgctxt "jQuery Alert"
+msgid "Deleting webp images, please wait."
+msgstr "Webp-Bilder löschen, bitte warten."
+
+#: classes/class-forms.php:99
+msgctxt "jQuery Alert"
+msgid "No .wepb images to delete"
+msgstr "No .webp Bilder zu löschen"
+
+#: classes/class-forms.php:100
+msgctxt "jQuery Alert"
+msgid "No .wepb images to create"
+msgstr "No .webp Bilder zu erstellen"
+
+#: classes/class-forms.php:101
+msgctxt "jQuery Alert"
+msgid ".webp images created"
+msgstr ".webp Bilder erstellt"
+
+#: classes/class-forms.php:102
+msgctxt "jQuery Alert"
+msgid ".webp images deleted"
+msgstr ".webp Bilder gelöscht"
+
+#: classes/class-forms.php:103
+msgctxt "jQuery Alert"
+msgid "There has been a problem deleting the theme .webp images"
+msgstr "Beim Löschen der theme.webp-Bilder ist ein Problem aufgetreten"
+
+#: classes/class-forms.php:104
+msgctxt "jQuery Alert"
+msgid "Are you sure you would like to create all of the theme .webp images"
+msgstr "Möchten Sie wirklich alle WWW-Motivbilder erstellen"
+
+#: classes/class-forms.php:105
+msgctxt "jQuery Alert"
+msgid "Are you sure you would like to delete all of the theme .webp images"
+msgstr "Möchten Sie wirklich alle WWW-Motivbilder löschen"
+
+#: classes/class-forms.php:106
+msgctxt "jQuery Alert"
+msgid "Are you sure you would like to create all of the media .webp images"
+msgstr "Sind Sie sicher, dass Sie alle Medien-WBP-Bilder erstellen möchten"
+
+#: classes/class-forms.php:107
+msgctxt "jQuery Alert"
+msgid "Are you sure you would like to delete all of the media .webp images"
+msgstr "Sind Sie sicher, dass Sie alle Medien-WBP-Bilder löschen möchten"
+
+#: classes/class-forms.php:108
+msgctxt "jQuery Alert"
+msgid "Unable to generate images, the plugin is disabled"
+msgstr "Bilder können nicht erzeugt werden, das Plugin ist deaktiviert"
+
+#: classes/class-forms.php:117
+msgctxt "admin notice"
+msgid ""
+"Plugin disabled, you are unable to create .webp images. Please enable the "
+"plugin in "
+msgstr ""
+"Plugin deaktiviert, du kannst keine .webp Bilder erstellen. Bitte aktivieren "
+"Sie das Plugin in "
+
+#: classes/class-forms.php:171
+msgctxt "admin notice"
+msgid "Settings have been updated"
+msgstr "Einstellungen wurden aktualisiert"
+
+#: classes/class-forms.php:173
+msgctxt "admin notice"
+msgid "No changes have been made to the plugin settings"
+msgstr "Es wurden keine Änderungen an den Plugin-Einstellungen vorgenommen"
+
+#: classes/class-forms.php:175
+msgctxt "admin notice"
+msgid "Failed to update settings"
+msgstr "Fehler beim Aktualisieren der Einstellungen"
+
+#: classes/class-links.php:40 classes/class-links.php:88
+#: classes/class-links.php:90
+msgctxt "plugin action notice"
+msgid "Settings"
+msgstr "die Einstellungen"
+
+#: classes/class-links.php:42
+msgctxt "plugin action notice"
+msgid "Tools"
+msgstr "Werkzeuge"
+
+#: classes/class-links.php:53 classes/class-links.php:68
+msgctxt "admin side menu title"
+msgid "Media Webp"
+msgstr "Media Webp"
+
+#: classes/class-notice.php:52
+msgctxt "admin notice"
+msgid ""
+"The plugin is active, but has not been enabled.  Please click on Settings"
+msgstr ""
+"Das Plugin ist aktiv, wurde aber nicht aktiviert. Bitte klicken Sie auf "
+"Einstellungen"
+
+#: classes/class-notice.php:61
+msgctxt "admin notice"
+msgid "Your settings have NOT been updated."
+msgstr "Ihre Einstellungen wurden NICHT aktualisiert."
+
+#: classes/class-notice.php:71
+msgctxt "admin notice"
+msgid "Please upgrade to the latest version of WordPress"
+msgstr "Bitte upgrade auf die neueste Version von WordPress"
+
+#: classes/class-notice.php:72 classes/class-notice.php:81 mediawebp.php:46
+msgctxt "plugin title"
+msgid "Media Webp"
+msgstr "Media Webp"
+
+#: classes/class-notice.php:80
+msgctxt "admin notice"
+msgid "The GD php module needs to be enabled for this plugin to function."
+msgstr ""
+"Das GD php-Modul muss aktiviert sein, damit dieses Plugin funktioniert."
+
+#: classes/class-notice.php:121
+msgctxt "post.php webp meta box"
+msgid "Media compatible with the webp format."
+msgstr "Medien kompatibel mit dem webp-Format."
+
+#: classes/class-notice.php:123
+msgctxt "post.php webp meta box"
+msgid "Create webp"
+msgstr "Webp erstellen"
+
+#: classes/class-plugin.php:229
+msgctxt "jQuery Alert"
+msgid "Create webp"
+msgstr "Webp erstellen"
+
+#: classes/class-plugin.php:230
+msgctxt "jQuery Alert"
+msgid "Sorry there has been an error creating the webp files."
+msgstr ""
+"Es tut uns leid, dass beim Erstellen der webp-Dateien ein Fehler aufgetreten "
+"ist."
+
+#: classes/class-plugin.php:231
+msgctxt "jQuery Alert"
+msgid "Media webp images have now been created."
+msgstr "Media webp Bilder wurden jetzt erstellt."
+
+#: classes/class-setting.php:53
+msgctxt "settings page"
+msgid "Media Webp Settings"
+msgstr "Media Webp-Einstellungen"
+
+#: classes/class-setting.php:56
+msgctxt "settings page"
+msgid "Enabled"
+msgstr "aktiviert"
+
+#: classes/class-setting.php:57
+msgctxt "settings page"
+msgid "webp images generated."
+msgstr "Webp Bilder generiert."
+
+#: classes/class-setting.php:58
+msgctxt "settings page"
+msgid "Notice"
+msgstr "Beachten"
+
+#: classes/class-setting.php:59
+msgctxt "settings page"
+msgid ""
+"You may also need to update your server settings to allow the new files to "
+"be available."
+msgstr ""
+"Möglicherweise müssen Sie auch Ihre Servereinstellungen aktualisieren, damit "
+"die neuen Dateien verfügbar sind."
+
+#: classes/class-setting.php:63
+msgctxt "settings page"
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: classes/class-setting.php:64
+msgctxt "settings page"
+msgid "Plugin features are disabled."
+msgstr "Plugin-Funktionen sind deaktiviert."
+
+#: classes/class-setting.php:64
+msgctxt "settings page"
+msgid "No webp images generated."
+msgstr "Keine Webp-Bilder generiert."
+
+#: classes/class-setting.php:68
+msgctxt "settings page"
+msgid "How it works"
+msgstr "Wie es funktioniert"
+
+#: classes/class-setting.php:70
+msgctxt "settings page"
+msgid ""
+"The webp format is currently the best option when sending images over the "
+"internet, first launched by Google in 2010"
+msgstr ""
+"Das Webp-Format ist derzeit die beste Option beim Senden von Bildern über "
+"das Internet, die 2010 erstmals von Google gestartet wurde"
+
+#: classes/class-setting.php:71
+msgctxt "settings page"
+msgid ""
+"Nearly 60% of all internet users chosen browser now supports the image "
+"format."
+msgstr ""
+"Fast 60% aller von Internetnutzern ausgewählten Browser unterstützen jetzt "
+"das Bildformat."
+
+#: classes/class-setting.php:72
+msgctxt "settings page"
+msgid ""
+"Its main advantage is it can halve your servers band width and greatly "
+"improves their experience."
+msgstr ""
+"Sein Hauptvorteil ist, dass es die Bandbreite Ihres Servers halbieren und "
+"seine Erfahrung erheblich verbessern kann."
+
+#: classes/class-setting.php:73
+msgctxt "settings page"
+msgid "Without compromising on image quality."
+msgstr "Ohne Kompromisse bei der Bildqualität."
+
+#: classes/class-setting.php:74
+msgctxt "settings page"
+msgid ""
+"This plugin uses the Google recommendations on how to implement and support "
+"the webp format."
+msgstr ""
+"Dieses Plugin verwendet die Google-Empfehlungen zur Implementierung und "
+"Unterstützung des Webp-Formats."
+
+#: classes/class-setting.php:77
+msgctxt "settings page"
+msgid "The way it works could not be simpler."
+msgstr "Die Art, wie es funktioniert, könnte nicht einfacher sein."
+
+#: classes/class-setting.php:78
+msgctxt "settings page"
+msgid ""
+"Your visitors browser requests the jpg or png version of the image, included "
+"is information telling your server if they can accept the webp format."
+msgstr ""
+"Ihr Besucher-Browser fordert die JPG- oder PNG-Version des Bildes an. Darin "
+"enthalten sind Informationen, die Ihrem Server mitteilen, ob sie das Webp-"
+"Format akzeptieren können."
+
+#: classes/class-setting.php:79
+msgctxt "settings page"
+msgid ""
+"If the browser can the server sends the webp binary information.  The image "
+"link will stay the same, so this does not affect page caching."
+msgstr ""
+"Wenn der Browser kann der Server die webp binäre Informationen senden. Die "
+"Image-Verknüpfung bleibt unverändert, was sich nicht auf das Seiten-Caching "
+"auswirkt."
+
+#: classes/class-setting.php:82
+msgctxt "settings page"
+msgid ""
+"The sections below show how to set up two of the main types of web server."
+msgstr ""
+"Die folgenden Abschnitte zeigen, wie zwei der Haupttypen von Webservern "
+"eingerichtet werden."
+
+#: classes/class-setting.php:83
+msgctxt "settings page"
+msgid ""
+"If your not sure on you web server, just ask your provider.  But if your "
+"site has a .htaccess file there is a good chance its an Apache server."
+msgstr ""
+"Wenn Sie auf Ihrem Webserver nicht sicher sind, fragen Sie einfach Ihren "
+"Provider. Aber wenn Ihre Site eine .htaccess-Datei hat, besteht eine gute "
+"Chance, dass es sich um einen Apache-Server handelt."
+
+#: classes/class-setting.php:84
+msgctxt "settings page"
+msgid ""
+"For more information on how to check that the webp images are being sent "
+"successfully please search Google. Its really easy to check using Google "
+"Chrome"
+msgstr ""
+"Weitere Informationen zur Überprüfung, ob die Webp-Bilder erfolgreich "
+"gesendet werden, finden Sie in Google. Es ist wirklich einfach, mit Google "
+"Chrome zu überprüfen"
+
+#: classes/class-setting.php:85
+msgctxt "settings page"
+msgid ""
+"But please remember to clear your browsers cache data as the image names "
+"will stay the same."
+msgstr ""
+"Bitte denken Sie daran, die Cache-Daten Ihres Browsers zu löschen, da die "
+"Bildnamen gleich bleiben."
+
+#: classes/class-setting.php:87 classes/class-setting.php:106
+msgctxt "settings page"
+msgid "configuration"
+msgstr "Aufbau"
+
+#: classes/class-setting.php:88
+msgctxt "settings page"
+msgid ""
+"Too enable webp images on a Apache server please add the following section "
+"to your sites .htaccess file in the root folder"
+msgstr ""
+"Um Web-Bilder auf einem Apache-Server zu aktivieren, fügen Sie bitte den "
+"folgenden Abschnitt zu Ihrer .htaccess-Site im Stammordner hinzu"
+
+#: classes/class-setting.php:89
+msgctxt "settings page"
+msgid "You will need to add it before the WordPress section."
+msgstr "Sie müssen es vor dem WordPress-Abschnitt hinzufügen."
+
+#: classes/class-setting.php:107
+msgctxt "settings page"
+msgid "Enabling the webp extension in Nginx requires two files to be modified."
+msgstr ""
+"Um die Webp-Erweiterung in Nginx zu aktivieren, müssen zwei Dateien geändert "
+"werden."
+
+#: classes/class-setting.php:108
+msgctxt "settings page"
+msgid ""
+"You can add the required map command to /etc/nginx/nginx.conf.  I have it "
+"just before the Virtual Host Configs section, within the http brackets."
+msgstr ""
+"Sie können den erforderlichen Map-Befehl zu /etc/nginx/nginx.conf "
+"hinzufügen. Ich habe es kurz vor dem Virtual Host Configs Abschnitt "
+"innerhalb der http Klammern."
+
+#: classes/class-setting.php:109
+msgctxt "settings page"
+msgid ""
+"Or create a new file /etc/nginx/conf.d/webp.conf and enter the section shown "
+"below."
+msgstr ""
+"Oder erstellen Sie eine neue Datei /etc/nginx/conf.d/webp.conf und geben Sie "
+"den folgenden Abschnitt ein."
+
+#: classes/class-setting.php:116
+msgctxt "settings page"
+msgid "Open your sites .conf file.  It is usual found here"
+msgstr ""
+"Öffnen Sie die .conf-Datei Ihrer Website. Es ist üblich, hier zu finden"
+
+#: classes/class-setting.php:117
+msgctxt "settings page"
+msgid "And add the following section"
+msgstr "Und fügen Sie den folgenden Abschnitt hinzu"
+
+#: classes/class-setting.php:126
+msgctxt "settings page"
+msgid ""
+"Afterwards open mime_types.conf, and make sure there is an entry for the "
+"webp format."
+msgstr ""
+"Öffnen Sie anschließend mime_types.conf und stellen Sie sicher, dass ein "
+"Eintrag für das Webp-Format vorhanden ist."
+
+#: classes/class-setting.php:127
+msgctxt "settings page"
+msgid ""
+"You will need to reload the server after adding the above information. Usual "
+"'systemctl reload nginx'"
+msgstr ""
+"Nach dem Hinzufügen der obigen Informationen müssen Sie den Server neu "
+"laden. Gewöhnliches 'Systemctl reload nginx'"
+
+#: classes/class-setting.php:128
+msgctxt "settings page"
+msgid ""
+"There are a lot of guides on the internet explaining how to set up and test "
+"Nginx servers."
+msgstr ""
+"Es gibt viele Anleitungen im Internet, die erklären, wie man Nginx-Server "
+"einrichtet und testet."
+
+#: classes/class-setting.php:131
+msgctxt "settings page"
+msgid "Options"
+msgstr "Optionen"
+
+#: classes/class-setting.php:134
+msgctxt "settings page"
+msgid "Automatically generate webp images when compatible media is uploaded."
+msgstr ""
+"Erstellen Sie automatisch Webp-Bilder, wenn kompatible Medien hochgeladen "
+"werden."
+
+#: classes/class-setting.php:138
+msgctxt "settings page"
+msgid "Delete webp images when the corresponding original media is deleted."
+msgstr ""
+"Löschen Sie Webp-Bilder, wenn das entsprechende Originalmedium gelöscht wird."
+
+#: classes/class-setting.php:142
+msgctxt "settings page"
+msgid "Generate webp images when a theme is activated."
+msgstr "Generieren Sie Webp-Bilder, wenn ein Design aktiviert ist."
+
+#: classes/class-setting.php:144
+msgctxt "settings page"
+msgid "Generate webp images for the following media and theme images"
+msgstr "Generieren Sie Webp-Bilder für die folgenden Medien- und Motivbilder"
+
+#: classes/class-setting.php:148
+msgctxt "settings page"
+msgid "Generate .webp from all types of compatible image."
+msgstr "Generieren Sie .webp aus allen kompatiblen Bildtypen."
+
+#: classes/class-setting.php:149
+msgctxt "settings page"
+msgid ".png, .jpg, .jpeg"
+msgstr ".png, .jpg, .jpeg"
+
+#: classes/class-setting.php:154
+msgctxt "settings page"
+msgid "Joint Photographic Experts Group"
+msgstr "Joint Photographic Experts Group"
+
+#: classes/class-setting.php:155
+msgctxt "settings page"
+msgid ".jpg, .jpeg"
+msgstr ".jpg, .jpeg"
+
+#: classes/class-setting.php:160
+msgctxt "settings page"
+msgid "Portable Network Graphics"
+msgstr "Portable Network Graphics"
+
+#: classes/class-setting.php:160
+msgctxt "settings page"
+msgid ".png"
+msgstr ".png"
+
+#: classes/class-setting.php:166
+msgctxt "settings page"
+msgid "Show webp icon on media library images."
+msgstr "Zeigen Sie das webp-Symbol in den Bildern der Medienbibliothek an."
+
+#: classes/class-setting.php:169
+msgctxt "settings page"
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: classes/class-tool.php:54
+msgctxt "tools page"
+msgid "Media Webp Tools"
+msgstr "Media Webp Tools"
+
+#: classes/class-tool.php:56
+msgctxt "tools page"
+msgid "Upload folder free space"
+msgstr "Laden Sie den Ordner frei"
+
+#: classes/class-tool.php:62
+msgctxt "tools page"
+msgid "Uploads Information"
+msgstr "Lädt Informationen hoch"
+
+#: classes/class-tool.php:64
+msgctxt "tools page"
+msgid ""
+"Only images that are currently in your WordPress database will be generated "
+"or deleted."
+msgstr ""
+"Nur Bilder, die sich gerade in Ihrer WordPress-Datenbank befinden, werden "
+"generiert oder gelöscht."
+
+#: classes/class-tool.php:65
+msgctxt "tools page"
+msgid "Any orphaned images in the upload folder will not be affected."
+msgstr "Verwaiste Bilder im Upload-Ordner sind davon nicht betroffen."
+
+#: classes/class-tool.php:71
+msgctxt "tools page"
+msgid "Media with a webp compatible image"
+msgstr ""
+"Medien mit einem webp-kompatiblen BildMedien mit einem .webp-kompatiblen Bild"
+
+#: classes/class-tool.php:73
+msgctxt "tools page"
+msgid "Compatible images in your upload folder"
+msgstr "Kompatible Bilder in Ihrem Upload-Ordner"
+
+#: classes/class-tool.php:76 classes/class-tool.php:86
+msgctxt "tools page"
+msgid "including thumbnails"
+msgstr "einschließlich Vorschaubilder"
+
+#: classes/class-tool.php:77
+msgctxt "tools page"
+msgid "Total size of compatible images in your upload folder"
+msgstr "Gesamtgröße der kompatiblen Bilder in Ihrem Upload-Ordner"
+
+#: classes/class-tool.php:81
+msgctxt "tools page"
+msgid "Media with webp images"
+msgstr "Medien mit Webp-Bildern"
+
+#: classes/class-tool.php:83
+msgctxt "tools page"
+msgid "webp images in your upload folder"
+msgstr "webp Bilder in Ihrem Upload-Ordner"
+
+#: classes/class-tool.php:87
+msgctxt "tools page"
+msgid "Total size of webp images in your upload folder"
+msgstr "Gesamtgröße der Webp-Bilder in Ihrem Upload-Ordner"
+
+#: classes/class-tool.php:92
+msgctxt "tools page"
+msgid "Create webp Images"
+msgstr "Erstellen Sie webp Bilder"
+
+#: classes/class-tool.php:94
+msgctxt "tools page"
+msgid "Delete webp Images"
+msgstr "Lösche webp Bilder"
+
+#: classes/class-tool.php:98
+msgctxt "tools page"
+msgid "Theme Information"
+msgstr "Themeninformationen"
+
+#: classes/class-tool.php:100
+msgctxt "tools page"
+msgid "Creating"
+msgstr "Erstellen"
+
+#: classes/class-tool.php:101
+msgctxt "tools page"
+msgid "This will only create wepb images for your active theme folder."
+msgstr ""
+"Dadurch werden nur webp-Bilder für Ihren aktiven Themenordner erstellt."
+
+#: classes/class-tool.php:102
+msgctxt "tools page"
+msgid "Deleting"
+msgstr "Löschen"
+
+#: classes/class-tool.php:103
+msgctxt "tools page"
+msgid ""
+"Deleting all webp images in the current active theme folder, this includes "
+"any that have not been generated using this plugin."
+msgstr ""
+"Löschen aller Webp-Bilder im aktuellen aktiven Theme-Ordner, einschließlich "
+"derer, die nicht mit diesem Plugin erstellt wurden."
+
+#: classes/class-tool.php:106
+msgctxt "tools page"
+msgid "Compatible images in your active themes folder"
+msgstr "Kompatible Bilder in Ihrem aktiven Themenordner"
+
+#: classes/class-tool.php:108
+msgctxt "tools page"
+msgid "Size of compatible images in your active themes folder"
+msgstr "Größe der kompatiblen Bilder in Ihrem aktiven Themenordner"
+
+#: classes/class-tool.php:110
+msgctxt "tools page"
+msgid "webp images in your active themes folder"
+msgstr "webp Bilder in Ihrem aktiven Themenordner"
+
+#: classes/class-tool.php:112
+msgctxt "tools page"
+msgid "Size of webp images in your active themes folder"
+msgstr "Größe der Webp-Bilder in Ihrem aktiven Themes-Ordner"
+
+#: classes/class-tool.php:117
+msgctxt "tools page"
+msgid "Create webp Theme Images"
+msgstr "Erstellen Sie Web-Theme-Bilder"
+
+#: classes/class-tool.php:119
+msgctxt "tools page"
+msgid "Delete webp Theme Images"
+msgstr "Löschen Sie Web-Theme-Bilder"
+
+#: mediawebp.php:45
+msgctxt "admin notice"
+msgid ""
+"Please upgrade your PHP to version 7.1 or greater before activating Media "
+"Webp"
+msgstr ""
+"Bitte aktualisieren Sie Ihr PHP auf Version 7.1 bevor Sie Media Webp "
+"aktivieren"
+
+#: vendor/10up/wp_mock/tests/FunctionMocksTest.php:65
+msgid "Test"
+msgstr ""
+
+#: vendor/10up/wp_mock/tests/FunctionMocksTest.php:75
+#: vendor/10up/wp_mock/tests/FunctionMocksTest.php:77
+msgid "Input"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Media Webp"
+msgstr "Media Webp"
+
+#. Description of the plugin/theme
+msgid ""
+"Automatically creates webp images when you upload compatible media.  This "
+"plugin also manages any updates and changes to the linked attachments, and "
+"allows you to manually convert existing images for both your upload and "
+"theme folders."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Steven Turner"
+msgstr ""
+
+#~ msgid ""
+#~ "Automatically creates corresponding webp images when a jpg or png is "
+#~ "uploaded to your media folder."
+#~ msgstr ""
+#~ "Erstellt automatisch entsprechende Webp-Bilder, wenn ein JPG oder PNG in "
+#~ "Ihren Medienordner hochgeladen wird."
+
+#~ msgctxt "jQuery Alert"
+#~ msgid ".webp images found for this media."
+#~ msgstr ".webp Bilder für dieses Medium gefunden."
+
+#~ msgctxt "settings page"
+#~ msgid "Media .webp Management"
+#~ msgstr "Medienverwaltung .webp"
+
+#~ msgctxt "settings page"
+#~ msgid ""
+#~ "Any existing images will not be recreated, to update existing images "
+#~ "please go to the tools page"
+#~ msgstr ""
+#~ "Alle vorhandenen Bilder werden nicht neu erstellt. Um existierende Bilder "
+#~ "zu aktualisieren, gehen Sie bitte auf die Tools-Seite"
+
+#~ msgctxt "tools page"
+#~ msgid ""
+#~ "Any orphaned images in the upload folder will be excluded.  If you have "
+#~ "manually uploaded an image that is not shown in the media tab a .webp "
+#~ "image will not be generated."
+#~ msgstr ""
+#~ "Alle verwaisten Bilder im Upload-Ordner werden ausgeschlossen. Wenn Sie "
+#~ "ein Bild hochgeladen haben, das nicht in der Medien-Registerkarte "
+#~ "angezeigt wird, wird kein .webp-Bild generiert."
+
+#~ msgctxt "tools page"
+#~ msgid ""
+#~ "This plugin will only generate from images that are available in "
+#~ "WordPress."
+#~ msgstr ""
+#~ "Dieses Plugin wird nur aus Bildern generiert, die in WordPress verfügbar "
+#~ "sind."
+
+#~ msgctxt "jQuery Alert"
+#~ msgid "Making request"
+#~ msgstr "Anfrage stellen"
+
+#~ msgctxt "jQuery Alert"
+#~ msgid "Total media found"
+#~ msgstr "Gesamtmedien gefunden"
+
+#~ msgctxt "jQuery Alert"
+#~ msgid "Media with .webp Images to delete :"
+#~ msgstr "Medien mit .webp Zu löschende Bilder"
+
+#~ msgctxt "Plugin action link"
+#~ msgid "Settings"
+#~ msgstr "die Einstellungen"
+
+#~ msgctxt "Plugin action link"
+#~ msgid "Tools"
+#~ msgstr "Werkzeuge"

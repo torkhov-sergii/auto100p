@@ -1,0 +1,120 @@
+.btn {
+  display: inline-block;
+  border: 0;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  user-select: none;
+  background-color: transparent;
+  padding: 6px 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  box-shadow: none;
+  transition: .2s ease-in-out;
+
+  @media screen and (prefers-reduced-motion: reduce) {
+    transition: none;
+  }
+
+  &:hover {
+    color: #000;
+    text-decoration: none;
+  }
+
+  &:focus,
+  &.focus {
+    outline: 0;
+  }
+
+  &.disabled,
+  &:disabled {
+    color: #c4c4c4;
+    border-color: #f0f0f0;
+    background-color: #f0f0f0;
+    box-shadow: none;
+
+    .svg-icon {
+      fill: #c4c4c4;
+    }
+  }
+
+  &:not(:disabled):not(.disabled) {
+    cursor: pointer;
+  }
+
+  &:not(:disabled):not(.disabled):active,
+  &:not(:disabled):not(.disabled).active {
+
+    &:focus {
+
+    }
+  }
+
+  .svg-icon {
+    display: inline;
+    vertical-align: baseline;
+    margin-left: 10px;
+    transition: fill .2s ease-in-out;
+  }
+}
+
+a.btn.disabled,
+fieldset:disabled a.btn {
+  pointer-events: none;
+}
+
+.btn-primary {
+  color: #fff;
+  font-size: 14px;
+  line-height: 93.75%;
+  @extend %proxima-nova;
+  font-weight: 600;
+  padding: 10px 31px;
+  background-color: #0e5ea8;
+  clip-path: polygon(8px 0, 100% 0, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0 100%, 0 8px);
+
+  &:hover {
+    color: #fff;
+    background-color: lighten(#0e5ea8, 5%);
+  }
+
+  &:focus,
+  &.focus {
+    box-shadow: 0 0 0 3px rgba(#0E5EA8, .5);
+  }
+
+  &.disabled,
+  &:disabled {
+    color: #c4c4c4;
+    border-color: #f0f0f0;
+    background-color: #f0f0f0;
+  }
+
+  &:not(:disabled):not(.disabled):active,
+  &:not(:disabled):not(.disabled).active {
+    color: #c4c4c4;
+    border-color: #0e5ea8;
+
+    &:focus {
+      box-shadow: 0 0 0 3px rgba(#0E5EA8, .5);
+    }
+  }
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+[type="submit"],
+[type="reset"],
+[type="button"] {
+  &.btn-block {
+    width: 100%;
+  }
+}
+
+button:focus {
+  outline: 0;
+}

@@ -1,0 +1,28 @@
+{
+    "scripts": {
+        "dev": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "development": "node node_modules/cross-env/src/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "production": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "watch": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "start": "git pull origin master && npm run prod",
+        "start-dev": "git pull origin dev && npm run dev"
+    },
+    "dependencies": {
+        "jquery": "^3.4.1",
+        "core-js": "3"
+    },
+    "devDependencies": {
+        "acorn": "^7.0.0",
+        "cross-env": "^5.2.0",
+        "css-loader": "^3.2.0",
+        "file-loader": "^4.2.0",
+        "import-glob-loader": "^1.1.0",
+        "laravel-mix": "^4.1.2",
+        "resolve-url-loader": "3.1.0",
+        "sass": "^1.22.9",
+        "sass-loader": "7.*",
+        "svg-spritemap-webpack-plugin": "^3.4.0",
+        "vue-template-compiler": "^2.6.10"
+    }
+}

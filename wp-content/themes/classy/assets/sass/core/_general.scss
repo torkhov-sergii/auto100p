@@ -1,0 +1,94 @@
+@import "variables";
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  min-width: 320px;
+  color: #494949;
+  font: 400 16px/1.5 ProximaNova, "Helvetica", sans-serif;
+  background-color: #fff;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
+  color: inherit;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+address {
+  margin-bottom: 20px;
+  font-style: normal;
+  line-height: inherit;
+}
+
+ol,
+ul,
+dl {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+blockquote {
+  margin: 0 0 20px;
+}
+
+
+a {
+  color: $link-color;
+  text-decoration: none;
+  transition: color .4s ease-in-out;
+
+  &:hover {
+    color: darken($link-color, 10%);
+    text-decoration: none;
+  }
+}
+
+pre {
+  margin-top: 0;
+  margin-bottom: 15px;
+  overflow: auto;
+  -ms-overflow-style: scrollbar;
+}
+
+figure {
+  margin: 0 0 15px;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+a,
+area,
+button,
+[role="button"],
+input,
+label,
+select,
+summary,
+textarea {
+  touch-action: manipulation;
+}

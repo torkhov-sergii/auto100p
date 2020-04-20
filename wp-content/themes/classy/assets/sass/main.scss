@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@import "core/variables";
+@import "core/functions";
+@import "core/mixins";
+@import "core/placeholders";
+@import "core/fonts";
+@import "core/normalize";
+@import "core/general";
+
+//@import "vendors/font-awesome/font-awesome";
+
+@import "modules/*.scss";
+@import "layouts/*.scss";
+@import "pages/*.scss";
+
+@import "responsive";
+
+$debug: false;
+
+@if ($debug) {
+    * {
+        &,
+        &::before,
+        &::after {
+            outline: 1px solid rgba(#f00, .5);
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "name": "anrw/wp-scratch-theme",
+    "description": "Dudka Agency",
+    "license": "GNU GPL",
+    "authors": [
+        {
+            "name": "Sergii Torkhov",
+            "email": "torhov.s@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "windwalker/renderer": "3.4.1",
+        "illuminate/view": "5.6.26",
+        "composer/installers": "^1.0",
+        "nesbot/carbon": "^1.31"
+    },
+    "require-dev": {
+        "wp-coding-standards/wpcs": "dev-master",
+        "phpmd/phpmd": "@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "Classy\\": "wp-content/themes/classy/app/core/classes",
+            "Classy\\Models\\": "wp-content/themes/classy/app/core/models",
+            "Helpers\\": "wp-content/themes/classy/app/custom/Helpers"
+        }
+    },
+    "scripts": {
+        "cs": "phpcs --standard=phpcs.ruleset.xml app/ -s",
+        "md": "phpmd app text phpmd.ruleset.xml"
+    }
+}

@@ -1,0 +1,35 @@
+.breadcrumbs {
+  &__list {
+    @extend %reset-list;
+    padding: 0;
+  }
+
+  &__item {
+    display: inline-block;
+    padding-right: 0;
+    color: #969696;
+    font-size: 12px;
+    line-height: 93.75%;
+    @extend %proxima-nova;
+    font-weight: 300;
+
+    &::after {
+      content: '/';
+      color: #969696;
+      margin-left: 3px;
+    }
+
+    &:last-of-type {
+      &::after {
+        display: none;
+      }
+    }
+  }
+
+  &__link {
+    color: inherit;
+    line-height: inherit;
+    font-size: inherit;
+  }
+
+}
