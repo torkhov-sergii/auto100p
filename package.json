@@ -9,7 +9,7 @@
         "start-dev": "git pull origin dev && npm run dev"
     },
     "dependencies": {
-        "jquery": "^3.4.1",
+        "jquery": "^3.5.0",
         "core-js": "3"
     },
     "devDependencies": {
