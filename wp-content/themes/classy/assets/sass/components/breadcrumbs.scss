@@ -10,7 +10,7 @@
     color: #969696;
     font-size: 12px;
     line-height: 93.75%;
-    @extend %proxima-nova;
+    font-family: 'Proxima Nova', sans-serif;
     font-weight: 300;
 
     &::after {

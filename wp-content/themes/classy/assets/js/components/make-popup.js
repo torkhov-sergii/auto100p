@@ -1,6 +1,6 @@
 //Only inline type now. Write the new condition to add new popup types
 
-const make_popup = (selector, type) => {
+const makePopup = (selector, type) => {
 
     const $selector = $(selector);
 
@@ -22,4 +22,4 @@ const make_popup = (selector, type) => {
 
 };
 
-export default make_popup;
+export default makePopup;

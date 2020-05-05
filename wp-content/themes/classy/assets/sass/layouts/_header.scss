@@ -1,3 +1,126 @@
 .header {
-  padding: 50px;
+  //padding: 50px;
+  color: #777;
+
+  .top-strip {
+    background-color: #1f2731;
+    text-align: center;
+    color: #fff;
+
+    &__list {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__item {
+      padding: 10px;
+      white-space: nowrap;
+
+      i {
+        font-size: 13px;
+        margin-right: 8px;
+      }
+
+      &:first-child {
+        padding-left: 0;
+      }
+
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+
+    &__link {
+      color: #fff;
+    }
+  }
+
+  .main {
+    padding: 28px 0;
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &__logo {
+      img {
+        max-width: 200px;
+      }
+    }
+
+    &__aside {
+      display: flex;
+    }
+
+    &__call {
+
+    }
+
+    &__info {
+      display: flex;
+
+      .info-main {
+
+        &__item {
+          display: flex;
+          margin-right: 55px;
+        }
+
+        &__icon {
+          font-size: 46px;
+          margin-right: 20px;
+          color: #dbdbdb;
+        }
+
+        &__content {
+          div:first-child {
+            color: $color-primary;
+            font-weight: 500;
+            font-size: 16px;
+            letter-spacing: 0.5px;
+          }
+
+          div:last-child {
+            font-size: 15px;
+            line-height: 26px;
+          }
+        }
+      }
+    }
+
+    &__hamburger {
+      display: none;
+    }
+  }
+}
+
+///////////////////////RESPONSIVE//////////////////////////
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 992px) {
+  .header {
+    .main {
+      &__call {
+        display: none;
+      }
+
+      &__info {
+        display: none;
+      }
+
+      &__hamburger {
+        display: block;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
 }

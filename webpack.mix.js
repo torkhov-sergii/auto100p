@@ -75,6 +75,7 @@ mix.js(resources_path + 'assets/js/index.js', resources_path + 'dist').autoload(
 // Add hash version to file {{ mix('/css/app.css') }}
 .copy(resources_path + 'assets/img', resources_path + 'dist/img', false)
 .copy(resources_path + 'assets/fonts', resources_path + 'dist/fonts', false)
+.copy(resources_path + 'assets/js/libs/fontawesome/webfonts', resources_path + 'dist/fonts/fontawesome')
 .version();
 
 if (mix.inProduction()) {

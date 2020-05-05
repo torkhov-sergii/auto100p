@@ -3,97 +3,9 @@ $debug: false !default;
 $image-url-path: "./img/" !default;
 $font-url-path: "./fonts/" !default;
 
-$body-bg: #fff !default;
-$body-color: #494949 !default;
-$accent-color: #0E5EA8 !default;
+$color-primary: #1c63b8;
 
-$em-base: 16px !default;
-
-$font-family-sans-serif: "Arial", "Helvetica", sans-serif !default;
-$font-family-serif: "Georgia", "Times New Roman", "Times", serif !default;
-$font-family-monospace: "Menlo", "Monaco", "Consolas", "Courier New", monospace !default;
-$font-family-base: $font-family-sans-serif !default;
-
-$base-unit: "px" !default;
-$fk-base-font-family: $font-family-sans-serif !default;
-$fk-base-font-size: 16px !default;
-$fk-base-photoshop-line-height: 24 !default;
-$fk-base-line-height: ($fk-base-photoshop-line-height / ($fk-base-font-size / 1px)) !default;
-
-$font-size-h1: floor(($fk-base-font-size * 2.6)) !default;
-$font-size-h2: floor(($fk-base-font-size * 2.15)) !default;
-$font-size-h3: ceil(($fk-base-font-size * 1.7)) !default;
-$font-size-h4: ceil(($fk-base-font-size * 1.25)) !default;
-$font-size-h5: $fk-base-font-size !default;
-$font-size-h6: ceil(($fk-base-font-size * .85)) !default;
-
-$headings-margin-bottom: 15px !default;
-$headings-font-family: inherit !default;
-$headings-font-weight: bold !default;
-$headings-line-height: 1.1 !default;
-$headings-color: inherit !default;
-
-$link-color: #494949 !default;
-$link-decoration: underline !default;
-$link-hover-color: inherit !default;
-$link-hover-decoration: none !default;
-
-$base-margin: 15px !default;
-$base-padding: 10px !default;
-
-$base-border-radius: 4px !default;
-
-$m0: 0 !default;
-$m1: 10px !default;
-$m2: 20px !default;
-$m3: 30px !default;
-
-$p0: 0 !default;
-$p1: 10px !default;
-$p2: 20px !default;
-$p3: 30px !default;
-
-$scroll-behavior: false !default;
-$font-smoothing: true !default;
-
-$viewport-map: (
-        viewport-min: 480px,
-        viewport-max: 1200px
-) !default;
-
-$headers-map: (
-        h1: (
-                fons-size-min: round($font-size-h1 * .67),
-                font-size-max: $font-size-h1,
-                font-size-fallback: round((($font-size-h1 + round($font-size-h1 * .67)) / 2))
-        ),
-        h2: (
-                fons-size-min: round($font-size-h2 * .67),
-                font-size-max: $font-size-h2,
-                font-size-fallback: round((($font-size-h2 + round($font-size-h2 * .67)) / 2))
-        ),
-        h3: (
-                fons-size-min: round($font-size-h3 * .67),
-                font-size-max: $font-size-h3,
-                font-size-fallback: round((($font-size-h3 + round($font-size-h3 * .67)) / 2))
-        ),
-        h4: (
-                fons-size-min: round($font-size-h4 * .8),
-                font-size-max: $font-size-h4,
-                font-size-fallback: round((($font-size-h4 + round($font-size-h4 * .67)) / 2))
-        ),
-        h5: (
-                fons-size-min: round($font-size-h5 * .9),
-                font-size-max: $font-size-h5,
-                font-size-fallback: round((($font-size-h5 + round($font-size-h5 * .67)) / 2))
-        ),
-        h6: (
-                fons-size-min: round($font-size-h6 * .95),
-                font-size-max: $font-size-h6,
-                font-size-fallback: round((($font-size-h6 + round($font-size-h6 * .67)) / 2))
-        )
-) !default;
-
+// Hamburger
 $hamburger-width: 24px !default;
 $hamburger-height: 2px !default;
 $hamburger-offset: 8px !default;

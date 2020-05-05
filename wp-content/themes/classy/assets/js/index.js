@@ -4,8 +4,10 @@ import 'core-js/stable/array/includes';
 import 'core-js/stable/array/find-index';
 import 'core-js/stable/string/includes';
 import * as jQuery from 'jquery';
-import './components/form-antispam';
+import "tiny-slider/dist/tiny-slider.css";
+import {tns} from 'tiny-slider/src/tiny-slider';
 
+import './components/form-antispam';
 import hamburgerMenu from './components/menu';
 
 window.$ = jQuery.default;
@@ -18,6 +20,18 @@ $(() => {
 
     hamburgerMenu('.js-menu', '.js-hamburger');
 
-    $('.js-styled-select').niceSelect();
+    tns({
+        container: '.js-hero-slider',
+        slideBy: 'page',
+        items: 1,
+        autoplay: true,
+        autoplayButtonOutput: false,
+        prevButton: 'prev-button',
+    });
+
+
+    //$('.js-styled-select').niceSelect();
 
 });
+
+

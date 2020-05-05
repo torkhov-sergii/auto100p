@@ -8,13 +8,16 @@
 @import "core/normalize";
 @import "core/general";
 
-//@import "vendors/font-awesome/font-awesome";
+// font-awesome
+$fa-font-path: '/wp-content/themes/classy/dist/fonts/fontawesome';
+@import "../js/libs/fontawesome/scss/fontawesome";
+@import "../js/libs/fontawesome/scss/light";
+@import "../js/libs/fontawesome/scss/duotone";
 
 @import "modules/*.scss";
 @import "layouts/*.scss";
 @import "pages/*.scss";
-
-@import "responsive";
+@import "components/*.scss";
 
 $debug: false;
 

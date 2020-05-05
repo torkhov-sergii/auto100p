@@ -9,8 +9,10 @@
         "start-dev": "git pull origin dev && npm run dev"
     },
     "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.13.0",
+        "core-js": "3",
         "jquery": "^3.4.1",
-        "core-js": "3"
+        "tiny-slider": "^2.9.2"
     },
     "devDependencies": {
         "acorn": "^7.0.0",

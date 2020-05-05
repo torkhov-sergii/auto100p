@@ -7,8 +7,8 @@ body {
 
 body {
   min-width: 320px;
-  color: #494949;
-  font: 400 16px/1.5 ProximaNova, "Helvetica", sans-serif;
+  color: #333;
+  font: 400 15px/1.5 ProximaNova, "Helvetica", sans-serif;
   background-color: #fff;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -22,6 +22,20 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   margin-top: 0;
   margin-bottom: 20px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 25px;
+  margin: 0 0 29px;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0 0 29px;
 }
 
 p {
@@ -48,12 +62,12 @@ blockquote {
 
 
 a {
-  color: $link-color;
+  color: #494949;
   text-decoration: none;
   transition: color .4s ease-in-out;
 
   &:hover {
-    color: darken($link-color, 10%);
+    color: darken(#494949, 10%);
     text-decoration: none;
   }
 }

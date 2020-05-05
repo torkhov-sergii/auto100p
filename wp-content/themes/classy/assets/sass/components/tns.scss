@@ -1,0 +1,74 @@
+.tns-outer {
+  position: relative;
+
+  .tns-controls {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    transform: translate(0, -50%);
+    z-index: 1;
+
+    button {
+      position: absolute;
+      background: none;
+      font-size: 0;
+      border: 0;
+      padding: 30px;
+      transform: translate(0, -50%);
+      opacity: 0.5;
+
+      &:before {
+        font-size: 70px;
+        color: #fff;
+        display: block;
+        font-family: 'Font Awesome 5 Pro';
+      }
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    [data-controls*="prev"] {
+      left: 0;
+
+      &:before {
+        content: "\f104";
+      }
+    }
+
+    [data-controls*="next"] {
+      right: 0;
+
+      &:before {
+        content: "\f105";
+      }
+    }
+  }
+
+  .tns-nav {
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+
+    button {
+      margin-right: 10px;
+      width: 12px;
+      height: 12px;
+      border: 2px solid #ffffff;
+      border-radius: 50%;
+      padding: 0;
+
+    }
+
+    &-active {
+      background: #333;
+    }
+  }
+
+}

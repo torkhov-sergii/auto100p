@@ -11,6 +11,8 @@
             var ajaxurl = "<?php echo constant('HOSTNAME') ?>/wp-admin/admin-ajax.php";
         </script>
 
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i|Poppins:300,400,500,600,700&subset=latin" />
+
         {{ wp_head() }}
 
         @include('layout.seo')
@@ -34,6 +36,6 @@
 
         {{ wp_footer() }}
 
-        <script src="/wp-content/themes/classy/dist/index.js"></script>
+        <script src="{{ \Helpers\General::asset_hash('/wp-content/themes/classy/dist/index.js') }}"></script>
     </body>
 </html>
