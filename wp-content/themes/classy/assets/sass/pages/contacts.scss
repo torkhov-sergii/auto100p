@@ -1,0 +1,36 @@
+.contacts {
+  padding: 70px 0px 40px 0px;
+
+  &__list {
+
+  }
+
+  &__item {
+    margin-bottom: 20px;
+  }
+
+  .item-contact {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+
+    &__icon {
+      font-size: 30px;
+      opacity: 0.5;
+      margin-right: 10px;
+    }
+
+    &__title {
+      color: #000;
+    }
+
+    &__description {
+      color: #666;
+    }
+  }
+}
+
+.map {
+  margin-right: 50px;
+  border: 1px solid #ccc;
+}

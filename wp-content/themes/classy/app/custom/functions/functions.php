@@ -215,7 +215,7 @@ function upg_excerpt( $args = '' ){
 
 function kama_breadcrumbs( $sep = ' » ', $l10n = array(), $args = array() ){
     $kb = new Kama_Breadcrumbs;
-    echo $kb->get_crumbs( $sep, $l10n, $args );
+    return $kb->get_crumbs( $sep, $l10n, $args );
 }
 
 class Kama_Breadcrumbs {
@@ -244,7 +244,8 @@ class Kama_Breadcrumbs {
         'on_front_page'   => true,  // выводить крошки на главной странице
         'show_post_title' => true,  // показывать ли название записи в конце (последний элемент). Для записей, страниц, вложений
         'show_term_title' => true,  // показывать ли название элемента таксономии в конце (последний элемент). Для меток, рубрик и других такс
-        'title_patt'      => '<li class="breadcrumbs__item"><span class="breadcrumbs__link" >%s</span></li>', // шаблон для последнего заголовка. Если включено: show_post_title или show_term_title
+        'linkpatt'      => '<div class="breadcrumbs__item"><span class="breadcrumbs__link" >%s</span></div>', // шаблон для последнего заголовка. Если включено: show_post_title или show_term_title
+        'title_patt'      => '<div class="breadcrumbs__item"><span class="breadcrumbs__link" >%s</span></div>', // шаблон для последнего заголовка. Если включено: show_post_title или show_term_title
         'last_sep'        => true,  // показывать последний разделитель, когда заголовок в конце не отображается
         'markup'          => 'schema.org', // 'markup' - микроразметка. Может быть: 'rdf.data-vocabulary.org', 'schema.org', '' - без микроразметки
         // или можно указать свой массив разметки:
@@ -270,7 +271,7 @@ class Kama_Breadcrumbs {
         $loc = (object) array_merge( apply_filters('kama_breadcrumbs_default_loc', self::$l10n ), $l10n );
         $arg = (object) array_merge( apply_filters('kama_breadcrumbs_default_args', self::$args ), $args );
 
-        $arg->sep = '<span class="kb_sep">'. $arg->sep .'</span>'; // дополним
+        $arg->sep = '<span class="breadcrumbs__sepearator">'. $arg->sep .'</span>'; // дополним
 
         // упростим
         $sep = & $arg->sep;
@@ -283,19 +284,19 @@ class Kama_Breadcrumbs {
             // Разметка по умолчанию
             if( ! $mark ) $mark = array(
                 'wrappatt'  => '<nav class="breadcrumbs"><ul class="breadcrumbs__list">%s</ul></nav>',
-                'linkpatt'  => '<li class="breadcrumbs__item"><a class="breadcrumbs__link" href="%s">%s</a></li>',
+                'linkpatt'  => '<div class="breadcrumbs__item"><a class="breadcrumbs__link" href="%s">%s</a></div>',
                 'sep_after' => '',
             );
             // rdf
             elseif( $mark === 'rdf.data-vocabulary.org' ) $mark = array(
                 'wrappatt'   => '<nav class="breadcrumbs" prefix="v: http://rdf.data-vocabulary.org/#"><ul class="breadcrumbs__list">%s</ul></nav>',
-                'linkpatt'   => '<li class="breadcrumbs__item" typeof="v:Breadcrumb"><a href="%s" class="breadcrumbs__link" rel="v:url" property="v:title">%s</a>',
-                'sep_after'  => '</li>'
+                'linkpatt'   => '<div class="breadcrumbs__item" typeof="v:Breadcrumb"><a href="%s" class="breadcrumbs__link" rel="v:url" property="v:title">%s</a>',
+                'sep_after'  => '</div>'
             );
             // schema.org
             elseif( $mark === 'schema.org' ) $mark = array(
                 'wrappatt'   => '<nav class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList"><ul class="breadcrumbs__list">%s</ul></nav>',
-                'linkpatt'   => '<li class="breadcrumbs__item" itemscope itemtype="http://schema.org/ListItem"><a href="%s" class="breadcrumbs__link" itemprop="item"><span itemprop="name">%s</span></a></li>',
+                'linkpatt'   => '<div class="breadcrumbs__item" itemscope itemtype="http://schema.org/ListItem"><a href="%s" class="breadcrumbs__link" itemprop="item"><span itemprop="name">%s</span></a></div>',
                 'sep_after'  => '',
             );
 

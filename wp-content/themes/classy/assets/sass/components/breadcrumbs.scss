@@ -1,4 +1,7 @@
 .breadcrumbs {
+  background: #f7f7f7;
+  padding: 30px 0;
+
   &__list {
     @extend %reset-list;
     padding: 0;
@@ -6,30 +9,21 @@
 
   &__item {
     display: inline-block;
-    padding-right: 0;
-    color: #969696;
-    font-size: 12px;
-    line-height: 93.75%;
-    font-family: 'Proxima Nova', sans-serif;
-    font-weight: 300;
-
-    &::after {
-      content: '/';
-      color: #969696;
-      margin-left: 3px;
-    }
-
-    &:last-of-type {
-      &::after {
-        display: none;
-      }
-    }
+    font-size: 16px;
   }
 
   &__link {
-    color: inherit;
-    line-height: inherit;
-    font-size: inherit;
+    color: #999;
+
+    &:hover {
+      color: $color-primary;
+    }
+  }
+
+  &__sepearator {
+    font-size: 16px;
+    color: #999;
+    padding: 0 2px 0 5px;
   }
 
 }

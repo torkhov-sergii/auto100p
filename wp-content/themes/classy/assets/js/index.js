@@ -20,15 +20,16 @@ $(() => {
 
     hamburgerMenu('.js-menu', '.js-hamburger');
 
-    tns({
-        container: '.js-hero-slider',
-        slideBy: 'page',
-        items: 1,
-        autoplay: true,
-        autoplayButtonOutput: false,
-        prevButton: 'prev-button',
-    });
-
+    if ($('.js-hero-slider').length) {
+        tns({
+            container: '.js-hero-slider',
+            slideBy: 'page',
+            items: 1,
+            autoplay: true,
+            autoplayButtonOutput: false,
+            prevButton: 'prev-button',
+        });
+    }
 
     //$('.js-styled-select').niceSelect();
 

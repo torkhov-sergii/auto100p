@@ -67,6 +67,7 @@ mix.js(resources_path + 'assets/js/index.js', resources_path + 'dist').autoload(
 
 // SASS
 .sass(resources_path + 'assets/sass/main.scss', resources_path + 'dist/main.css')
+.sass(resources_path + 'assets/sass/admin.scss', resources_path + 'dist/admin.css')
 //.sass(resources_path + 'sass/print.scss', 'dist')
 
 // Generate sourceMaps

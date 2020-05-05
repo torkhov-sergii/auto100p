@@ -114,6 +114,14 @@ echo '<style>
 add_action('admin_head', 'my_custom_styles');
 
 
+// Custom CSS for admin panel
+function load_admin_style() {
+    //wp_enqueue_style( 'admin_css', get_template_directory_uri() . '/admin.css', false, '1.0.0' );
+    wp_enqueue_style( 'admin_css', '/wp-content/themes/classy/dist/admin.css', false, '1.0.0' );
+}
+add_action( 'admin_enqueue_scripts', 'load_admin_style' );
+
+
 //убрать customize
 function remove_some_nodes_from_admin_top_bar_menu( $wp_admin_bar ) {
     $wp_admin_bar->remove_menu( 'customize' );

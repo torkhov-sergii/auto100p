@@ -27,6 +27,14 @@
         <div class="wrapper" id="top">
             {{ get_header() }}
 
+            {!! kama_breadcrumbs('/', [], [
+                'on_front_page' => false,
+                'markup' => [
+                    'wrappatt'  => '<div class="breadcrumbs"><div class="container">%s</div></div>',
+                    'linkpatt'  => '<div class="breadcrumbs__item"><a class="breadcrumbs__link" href="%s">%s</a></div>',
+                ],
+            ]) !!}
+
             <div class="content">
                 @yield('content')
             </div>
