@@ -72,11 +72,11 @@
                </div>
 
                <div class="footer__contact">
-                   <i class="fal fa-envelope"></i><a href="mailto:info@mysite.ru">info@mysite.ru</a>
+                   <i class="fal fa-envelope"></i><a href="mailto:info@auto100p.com.ua">info@auto100p.com.ua</a>
                </div>
 
                <div class="footer__contact">
-                   <i class="fal fa-compass"></i>г. Москва, Уличная ул., дом 1
+                   <i class="fal fa-compass"></i>г. Киев, Троещина, ул. Пожарского, 2
                </div>
             </div>
         </div>

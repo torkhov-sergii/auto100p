@@ -4,8 +4,8 @@
         <div class="container">
             <div class="top-strip__list">
                 <div class="top-strip__item">Профессиональный шиномонтаж и сезонное хранение шин</div>
-                <div class="top-strip__item"><i class="fal fa-compass"></i>г. Москва, Уличная ул., дом 1</div>
-                <div class="top-strip__item"><i class="fal fa-envelope"></i><a class="top-strip__link" href="mailto:info@mysite.ru">info@mysite.ru</a></div>
+                <div class="top-strip__item"><i class="fal fa-compass"></i>г. Киев, Троещина, ул. Пожарского, 2</div>
+                <div class="top-strip__item"><i class="fal fa-envelope"></i><a class="top-strip__link" href="mailto:info@auto100p.com.ua">info@auto100p.com.ua</a></div>
                 <div class="top-strip__item"><i class="fal fa-phone"></i>8 (495) 123-45-67</div>
             </div>
         </div>
