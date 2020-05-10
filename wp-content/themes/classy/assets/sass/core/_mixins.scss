@@ -18,6 +18,7 @@
   }
 }
 
+// @include responsive-font-size(20px, 30px, 480px, 1200px);
 @mixin responsive-font-size($font-size-min, $font-size-max, $viewport-width-min, $viewport-width-max, $fallback: false) {
   font-size: $font-size-min;
 

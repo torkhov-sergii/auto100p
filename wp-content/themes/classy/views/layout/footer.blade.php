@@ -1,13 +1,13 @@
 <div class="footer-call">
     <div class="container">
-        <b>Остались вопросы?</b> Задайте их сейчас, позвонив по телефону 8 (495) 123-45-67
+        <b>Остались вопросы?</b> Задайте их сейчас, позвонив по телефону <span style="white-space: nowrap">8 (068) 789-76-67</span>
     </div>
 </div>
 
 <footer class="footer">
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
+            <div class="footer__copy col-md-4 col-lg-3 col-xl-4">
                 <h2>АВТОСТОП</h2>
 
                 <div class="footer__text">
@@ -19,7 +19,7 @@
                 </div>
             </div>
 
-            <div class="col-md-2">
+            <div class="col-md-4 col-lg-4 col-xl-2">
                 <h2>О КОМПАНИИ</h2>
 
                 <ul class="footer__menu menu-footer">
@@ -41,7 +41,7 @@
                 </ul>
             </div>
 
-            <div class="col-md-2">
+            <div class="col-md-4 col-lg-4 col-xl-2">
                 <h2>НАШИ УСЛУГИ</h2>
 
                 <ul class="footer__menu menu-footer">
@@ -60,11 +60,11 @@
                 </ul>
             </div>
 
-            <div class="col-md-1">
+            <div class="col-lg-1">
 
             </div>
 
-            <div class="col-md-3">
+            <div class="col-12 col-lg-4 col-xl-3">
                 <h2>КОНАТКТЫ</h2>
 
                <div class="footer__contact">

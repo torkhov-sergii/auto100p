@@ -1,8 +1,6 @@
 .contacts {
-  padding: 70px 0px 40px 0px;
-
   &__list {
-
+    margin-bottom: 50px;
   }
 
   &__item {
@@ -34,4 +32,26 @@
 .map {
   margin-right: 50px;
   border: 1px solid #ccc;
+}
+
+///////////////////////RESPONSIVE//////////////////////////
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+  .map {
+    margin-right: 0;
+  }
+
+  .contacts {
+    .row {
+      flex-direction: column-reverse;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
 }

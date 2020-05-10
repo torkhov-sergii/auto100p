@@ -10,7 +10,6 @@
 }
 
 .about-text {
-  padding: 70px 0px 40px 0px;
 }
 
 .hero-slider {
@@ -32,8 +31,8 @@
 
   &__title {
     color: #fff;
-    font-size: 40px;
-    line-height: 1.2;
+    @include responsive-font-size(30px, 40px, 480px, 1200px);
+    line-height: 1;
     margin-bottom: 20px;
   }
 

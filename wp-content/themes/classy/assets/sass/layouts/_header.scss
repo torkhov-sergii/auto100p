@@ -9,6 +9,7 @@
 
     &__list {
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-between;
     }
 
@@ -36,7 +37,7 @@
   }
 
   .main {
-    padding: 28px 0;
+    padding: 20px 0;
 
     .container {
       display: flex;
@@ -46,7 +47,7 @@
 
     &__logo {
       img {
-        max-width: 200px;
+        max-width: 250px;
       }
     }
 
@@ -98,11 +99,25 @@
 
 ///////////////////////RESPONSIVE//////////////////////////
 @media screen and (max-width: 1200px) {
-
+  .header {
+    .top-strip {
+      &__item {
+        &:first-child {
+          display: none;
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 992px) {
   .header {
+    .top-strip {
+      &__item {
+        font-size: 12px;
+      }
+    }
+
     .main {
       &__call {
         display: none;

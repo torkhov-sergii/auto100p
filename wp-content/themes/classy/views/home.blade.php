@@ -46,24 +46,24 @@
         </div>
     </div>
 
-    <div class="about-text">
+    <div class="main about-text">
         <div class="container">
             <h1 class="text-center">СТО В КИЕВЕ</h1>
 
             <div class="row">
-                <div class="col-md-8 text-center mx-auto">
+                <div class="col col-xl-8 text-center mx-auto">
                     Современный автомобиль это ежедневное перемещение в комфортном режиме, отсутствие неприятной толкотни, свойственной общественному транспорту. Возможность планировать срочные, длительные поездки в любое время суток. Несмотря на дорожные заторы, высокие цены на топливо, владельцы машин не спешат пользоваться автобусами.
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="benefits">
+    <div class="benefits main">
         <div class="container">
             <h1 class="text-center">ПОЧЕМУ НАС РЕКОМЕНДУЮТ</h1>
 
             <div class="row benefits__list">
-                <div class="col-md-4">
+                <div class="col-md-6 col-lg-4">
                     <div class="benefits__item">
                         <div class="benefits__icon">
                             <i class="fad fa-user-crown"></i>
@@ -97,7 +97,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-6 col-lg-4">
                     <div class="benefits__item">
                         <div class="benefits__icon">
                             <i class="fad fa-file-alt"></i>
@@ -131,7 +131,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-6 col-lg-4">
                     <div class="benefits__item">
                         <div class="benefits__icon">
                             <i class="fad fa-garage-car"></i>

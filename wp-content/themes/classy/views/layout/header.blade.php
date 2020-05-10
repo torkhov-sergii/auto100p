@@ -15,7 +15,7 @@
         <div class="container">
             <div class="main__logo">
                 <a href="/">
-                    <img src="/wp-content/themes/classy/dist/img/base/logo.png">
+                    <img src="/wp-content/themes/classy/dist/img/logo.png">
                 </a>
             </div>
 

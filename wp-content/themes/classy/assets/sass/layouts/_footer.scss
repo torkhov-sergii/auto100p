@@ -1,7 +1,11 @@
 .footer {
-  padding-top: 50px;
+  padding-top: 10px;
   padding-bottom: 50px;
   color: #000;
+
+  h2 {
+    margin-top: 40px;
+  }
 
   &__text {
 
@@ -60,4 +64,26 @@
   text-align: center;
   padding: 40px 0;
   font-size: 26px;
+}
+
+///////////////////////RESPONSIVE//////////////////////////
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    &__copy {
+      order: 4;
+    }
+  }
+
+  .footer-call {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
 }

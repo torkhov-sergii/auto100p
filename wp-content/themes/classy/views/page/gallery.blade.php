@@ -1,7 +1,7 @@
 @extends('layout.default')
 
 @section('content')
-    <div class="gallery">
+    <div class="gallery main">
         <div class="container">
             <h1>
                 {!! $page->title() !!}

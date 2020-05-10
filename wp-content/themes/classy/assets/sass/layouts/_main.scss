@@ -36,3 +36,23 @@
     max-width: 1350px;
   }
 }
+
+.main {
+  padding: 70px 0px 40px 0px;
+}
+
+///////////////////////RESPONSIVE//////////////////////////
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+  .main {
+    padding: 40px 0px 30px 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+}
