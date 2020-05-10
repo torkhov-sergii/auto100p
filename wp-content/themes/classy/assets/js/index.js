@@ -9,6 +9,7 @@ import {tns} from 'tiny-slider/src/tiny-slider';
 
 import './components/form-antispam';
 import hamburgerMenu from './components/menu';
+import 'magnific-popup';
 
 window.$ = jQuery.default;
 
@@ -30,6 +31,15 @@ $(() => {
             prevButton: 'prev-button',
         });
     }
+
+    $('.js-magnific-popup-container').magnificPopup({
+        delegate: 'a', // child items selector, by clicking on it popup will open
+        gallery: {
+            enabled: true
+        },
+        type: 'image'
+        // other options
+    });
 
     //$('.js-styled-select').niceSelect();
 

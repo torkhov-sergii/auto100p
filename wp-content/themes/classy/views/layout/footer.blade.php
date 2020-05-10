@@ -68,7 +68,11 @@
                 <h2>КОНАТКТЫ</h2>
 
                <div class="footer__contact">
-                   <i class="fal fa-phone"></i>+7 (495) 123-45-67
+                   <i class="fal fa-phone"></i>8 (068) 789-76-67
+               </div>
+
+               <div class="footer__contact">
+                   <i class="fal fa-phone"></i>8 (093) 789-76-67
                </div>
 
                <div class="footer__contact">

@@ -12,6 +12,7 @@
         "@fortawesome/fontawesome-free": "^5.13.0",
         "core-js": "3",
         "jquery": "^3.4.1",
+        "magnific-popup": "^1.1.0",
         "tiny-slider": "^2.9.2"
     },
     "devDependencies": {

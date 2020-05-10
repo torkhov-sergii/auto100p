@@ -7,9 +7,12 @@
                 {!! $page->title() !!}
             </h1>
 
-            @foreach($page->getAcfByKey('images') as $image)
-                <img src="{{ $page->getFlyImage($image->ID, [50,50], false) }}">
-            @endforeach
+            <div class="gallery__list js-magnific-popup-container">
+                @foreach($page->getAcfByKey('images') as $image)
+                    <a href="{{ \Helpers\Images::getFlyImage($image['ID'], [1500,1500], false) }}" class="gallery__item" style="background-image: url('{{ \Helpers\Images::getFlyImage($image['ID'], [300,300], false) }}')">
+                    </a>
+                @endforeach
+            </div>
         </div>
     </div>
 @stop

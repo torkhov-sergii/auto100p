@@ -11,13 +11,14 @@
 
   .item-contact {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     font-size: 16px;
 
     &__icon {
       font-size: 30px;
       opacity: 0.5;
       margin-right: 10px;
+      margin-top: 7px;
     }
 
     &__title {

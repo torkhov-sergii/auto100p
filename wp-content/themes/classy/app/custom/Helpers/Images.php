@@ -116,7 +116,6 @@ class Images
         return [];
     }
 
-
     private static function getImageInfo($url) {
         $image_sizes = getimagesize($url);
         $image_info = pathinfo($url);

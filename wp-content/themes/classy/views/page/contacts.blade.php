@@ -39,7 +39,10 @@
                                     Телефон:
                                 </div>
                                 <div class="item-contact__description">
-                                    8 (495) 123-45-67
+                                    8 (068) 789-76-67
+                                </div>
+                                <div class="item-contact__description">
+                                    8 (093) 789-76-67
                                 </div>
                             </div>
                         </div>

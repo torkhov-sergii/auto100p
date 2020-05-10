@@ -6,7 +6,7 @@
                 <div class="top-strip__item">Профессиональный шиномонтаж и сезонное хранение шин</div>
                 <div class="top-strip__item"><i class="fal fa-compass"></i>г. Киев, Троещина, ул. Пожарского, 2</div>
                 <div class="top-strip__item"><i class="fal fa-envelope"></i><a class="top-strip__link" href="mailto:info@auto100p.com.ua">info@auto100p.com.ua</a></div>
-                <div class="top-strip__item"><i class="fal fa-phone"></i>8 (495) 123-45-67</div>
+                <div class="top-strip__item"><i class="fal fa-phone"></i>8 (068) 789-76-67</div>
             </div>
         </div>
     </div>
@@ -22,11 +22,11 @@
             <div class="main__aside">
                 <div class="main__info info-main">
                     <div class="info-main__item">
-                        <i class="info-main__icon fal fa-comment-alt-lines"></i>
+                        <i class="info-main__icon fal fa-phone"></i>
 
                         <div class="info-main__content">
-                            <div>8 (495) 123-45-67</div>
-                            <div>template@amades.ru</div>
+                            <div>8 (068) 789-76-67</div>
+                            <div>8 (093) 789-76-67</div>
                         </div>
                     </div>
 
