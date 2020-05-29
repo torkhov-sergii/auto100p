@@ -1,0 +1,70 @@
+.services {
+
+  &__list {
+    margin-bottom: 30px;
+  }
+
+  &__item {
+    margin-bottom: 4px;
+    background-color: #f0f0f0;
+
+    a {
+      display: block;
+      position: relative;
+      padding: 15px 20px 15px 40px;
+
+      &:before {
+        display: block;
+        content: "";
+        position: absolute;
+        left: 20px;
+        top: 23px;
+        width: 5px;
+        height: 5px;
+        background-color: #ccc;
+      }
+    }
+
+    &.active {
+      background: $color-primary;
+
+      a {
+        color: #fff;
+
+        &:before {
+          background-color: #fff;
+        }
+      }
+    }
+  }
+
+  .item-services {
+
+  }
+
+  &__main {
+    padding-left: 40px;
+  }
+
+  &__title {
+    //padding-left: 40px;
+  }
+}
+
+///////////////////////RESPONSIVE//////////////////////////
+@media screen and (max-width: 1200px) {
+  .services {
+    &__list {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+}

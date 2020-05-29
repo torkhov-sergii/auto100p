@@ -60,11 +60,12 @@
   }
 
   .sub-menu {
+    z-index: 10;
     margin-bottom: 0;
     position: absolute;
     top: calc(100% + 1px);
     left: 0;
-    width: 240px;
+    min-width: 240px;
     opacity: 0;
     visibility: hidden;
     padding: 25px 20px;

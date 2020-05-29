@@ -41,6 +41,10 @@ $(() => {
         // other options
     });
 
+    $('.js-magnific-popup-inline-container').magnificPopup({
+        type: 'inline',
+    });
+
     //$('.js-styled-select').niceSelect();
 
 });

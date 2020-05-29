@@ -3,7 +3,7 @@
     <div class="top-strip">
         <div class="container">
             <div class="top-strip__list">
-                <div class="top-strip__item">Профессиональный шиномонтаж и сезонное хранение шин</div>
+                <div class="top-strip__item">Профессиональный ремонт авто на Троещине</div>
                 <div class="top-strip__item"><i class="fal fa-compass"></i>г. Киев, Троещина, ул. Пожарского, 2</div>
                 <div class="top-strip__item"><i class="fal fa-envelope"></i><a class="top-strip__link" href="mailto:info@auto100p.com.ua">info@auto100p.com.ua</a></div>
                 <div class="top-strip__item"><i class="fal fa-phone"></i>8 (068) 789-76-67</div>
@@ -41,7 +41,19 @@
                 </div>
 
                 <div class="main__call">
-                    <a href="" class="btn">ПЕРЕЗВОНИТЕ МНЕ</a>
+                    <a href="#form" class="btn js-magnific-popup-inline-container">ПЕРЕЗВОНИТЕ МНЕ</a>
+                </div>
+
+                <div id="form" class="popup mfp-hide {{ isset($popup['classes']) ? $popup['classes'] : '' }}">
+
+                    <div class="popup__title">
+                        Перезвоните мне
+                    </div>
+                    <div class="popup__body">
+                        {!! do_shortcode( '[contact-form-7 id="5" title="Contact form 1"]' ) !!}
+                    </div>
+                    <div class="popup__body form-section_contacts contact-form">{!! do_shortcode($popup['content']) !!}</div>
+
                 </div>
             </div>
 

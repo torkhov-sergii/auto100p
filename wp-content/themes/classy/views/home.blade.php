@@ -5,19 +5,19 @@
     <div class="hero-slider">
         <div class="js-hero-slider">
             <div>
-                <div class="hero-slider__item" style="background-image: url('/wp-content/themes/classy/dist/img/base/item_191.jpg')">
+                <div class="hero-slider__item" style="background-image: url('/wp-content/themes/classy/dist/img/slider/item_192.jpg')">
                     <div class="container">
                         <div class="hero-slider__inner">
                             <div class="hero-slider__title">
-                                Качественные услуги по ремонту автомобилей для населения
+                                АВТО100П - мы предоставляем полный спектр услуг по ремонту и обслуживанию автомобиля
                             </div>
 
                             <div class="hero-slider__text">
-                                За прошедшие годы текст Lorem Ipsum получил много версий. Некоторые версии появились по ошибке, некоторые - намеренно (например, юмористические варианты).
+                                Свой автомобиль можно доверить далеко не каждому мастеру. Мы надеемся, что в нашем сервисе вы не только останетесь довольны оказанными нами услугами, но и станете постоянным клиентом.
                             </div>
 
                             <div class="hero-slider__button">
-                                <a href="" class="btn">ПОДРОБНЕЕ</a>
+                                <a href="/contacts/" class="btn">Контакты</a>
                             </div>
                         </div>
                     </div>
@@ -25,19 +25,19 @@
             </div>
 
             <div>
-                <div class="hero-slider__item" style="background-image: url('/wp-content/themes/classy/dist/img/base/item_191.jpg')">
+                <div class="hero-slider__item" style="background-image: url('/wp-content/themes/classy/dist/img/slider/item_191.jpg')">
                     <div class="container">
                         <div class="hero-slider__inner">
                             <div class="hero-slider__title">
-                                Качественные услуги по ремонту автомобилей для населения
+                                Реставрация впускных коллекторов mersedes v6 дизель
                             </div>
 
                             <div class="hero-slider__text">
-                                За прошедшие годы текст Lorem Ipsum получил много версий. Некоторые версии появились по ошибке, некоторые - намеренно (например, юмористические варианты).
+                                Одна из неисправностей дизельного двигателя ОМ 642M — это неисправные заслонки впускного коллектора, они перестают работать из-за износа клипс крепления заслонок, направляющей тяги соединения с заслонками, а так же изнашиваются посадочные места на рычагах заслонок.
                             </div>
 
                             <div class="hero-slider__button">
-                                <a href="" class="btn">ПОДРОБНЕЕ</a>
+                                <a href="/services/om-642-restavratsiya-vpusknyh-kollektorov-mersedes-v6-dizel/" class="btn">Подробнее</a>
                             </div>
                         </div>
                     </div>
@@ -52,7 +52,11 @@
 
             <div class="row">
                 <div class="col col-xl-8 text-center mx-auto">
-                    Современный автомобиль это ежедневное перемещение в комфортном режиме, отсутствие неприятной толкотни, свойственной общественному транспорту. Возможность планировать срочные, длительные поездки в любое время суток. Несмотря на дорожные заторы, высокие цены на топливо, владельцы машин не спешат пользоваться автобусами.
+                    Техническое обслуживание, ремонт электрики, ремонт кондиционера, ремонт двигателя, ремонт тормозной системы, ремонт выхлопной системы, ремонт трансмиссии, диагностика, ремонт ходовой части, осмотр на подъёмнике
+                </div>
+
+                <div class="col col-xl-8 text-center mx-auto" style="margin-top: 20px">
+                    Обслуживаем Acura, Audi, Bentley, BMW, Cadillac, Chevrolet, Chrysler, Citroen, Dacia, Daewoo, Daihatsu, Dodge, Fiat, Ford, Genesis, Honda, Hummer, Hyundai, Infiniti, Isuzu, Jaguar, Jeep, Kia, Land Rover, Lexus, Lincoln, Maybach, Mazda, Mercedes-Benz, MINI, Mitsubishi, Nissan, Opel, Peugeot, Porsche, Renault, Saab, Scion, SEAT, Skoda, Smart, SsangYong, Subaru, Suzuki, Toyota, Vauxhall, Volkswagen, Volvo.
                 </div>
             </div>
         </div>

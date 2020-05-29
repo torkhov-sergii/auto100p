@@ -11,7 +11,7 @@
                 <h2>АВТОСТОП</h2>
 
                 <div class="footer__text">
-                    За прошедшие годы текст Lorem Ipsum получил много версий. Некоторые версии появились по ошибке, некоторые - намеренно (например, юмористические варианты).
+                    Профессиональный сервис по ремонту автомобилей на Троещине. Честность, прозрачность, дружелюдие - вот что нравится нашим клиентам.
                 </div>
 
                 <div class="footer__copyright">
@@ -27,16 +27,10 @@
                         <a href="/">Главная<i class="fal fa-angle-right"></i></a>
                     </li>
                     <li class="menu-footer__item">
-                        <a href="#">О компании<i class="fal fa-angle-right"></i></a>
+                        <a href="/gallery/">Наши работы<i class="fal fa-angle-right"></i></a>
                     </li>
                     <li class="menu-footer__item">
-                        <a href="#">Услуги<i class="fal fa-angle-right"></i></a>
-                    </li>
-                    <li class="menu-footer__item">
-                        <a href="#">Прайс-лист<i class="fal fa-angle-right"></i></a>
-                    </li>
-                    <li class="menu-footer__item">
-                        <a href="#">Контакты<i class="fal fa-angle-right"></i></a>
+                        <a href="/contacts/">Контакты<i class="fal fa-angle-right"></i></a>
                     </li>
                 </ul>
             </div>
@@ -46,16 +40,16 @@
 
                 <ul class="footer__menu menu-footer">
                     <li class="menu-footer__item">
-                        <a href="/">Шиномонтаж<i class="fal fa-angle-right"></i></a>
+                        <a href="/services/om-642-restavratsiya-vpusknyh-kollektorov-mersedes-v6-dizel/">Реставрация впускных коллекторов<i class="fal fa-angle-right"></i></a>
                     </li>
                     <li class="menu-footer__item">
-                        <a href="#">Покраска дисков<i class="fal fa-angle-right"></i></a>
+                        <a href="/services/slesarnyj-remont/">Слесарный ремонт<i class="fal fa-angle-right"></i></a>
                     </li>
                     <li class="menu-footer__item">
-                        <a href="#">Ремонт дисков<i class="fal fa-angle-right"></i></a>
+                        <a href="/services/remont-avtoelektriki/">Ремонт электрооборудования<i class="fal fa-angle-right"></i></a>
                     </li>
                     <li class="menu-footer__item">
-                        <a href="#">Химчистка салона<i class="fal fa-angle-right"></i></a>
+                        <a href="/services/vosstanovlenie-avto/">Восстановление авто<i class="fal fa-angle-right"></i></a>
                     </li>
                 </ul>
             </div>
