@@ -48,7 +48,7 @@
 
     <div class="main about-text">
         <div class="container">
-            <h1 class="text-center">СТО В КИЕВЕ</h1>
+            <h1 class="text-center">СТО В КИЕВЕ НА ТРОЕЩИНЕ</h1>
 
             <div class="row">
                 <div class="col col-xl-8 text-center mx-auto">
