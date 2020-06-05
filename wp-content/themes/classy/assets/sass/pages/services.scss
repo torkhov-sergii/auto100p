@@ -46,6 +46,14 @@
     padding-left: 40px;
   }
 
+  &__image {
+    margin-bottom: 40px;
+
+    img {
+      max-height: 400px;
+    }
+  }
+
   &__title {
     //padding-left: 40px;
   }

@@ -6,7 +6,7 @@
                 <div class="top-strip__item">Профессиональный ремонт авто на Троещине</div>
                 <div class="top-strip__item"><i class="fal fa-compass"></i>г. Киев, Троещина, ул. Пожарского, 2</div>
                 <div class="top-strip__item"><i class="fal fa-envelope"></i><a class="top-strip__link" href="mailto:info@auto100p.com.ua">info@auto100p.com.ua</a></div>
-                <div class="top-strip__item"><i class="fal fa-phone"></i>8 (068) 789-76-67</div>
+                <div class="top-strip__item"><i class="fal fa-phone"></i><a class="top-strip__link" href="tel:+38 068 7897667">8 (068) 789-76-67</a></div>
             </div>
         </div>
     </div>
@@ -25,8 +25,8 @@
                         <i class="info-main__icon fal fa-phone"></i>
 
                         <div class="info-main__content">
-                            <div>8 (068) 789-76-67</div>
-                            <div>8 (093) 789-76-67</div>
+                            <div><a href="tel:+38 068 7897667">8 (068) 789-76-67</a></div>
+                            <div><a href="tel:+38 093 7897667">8 (093) 789-76-67</a></div>
                         </div>
                     </div>
 
@@ -34,7 +34,7 @@
                         <i class="info-main__icon fal fa-alarm-clock"></i>
 
                         <div class="info-main__content">
-                            <div>8:00 - 17:30</div>
+                            <div>10:00 - 20:00</div>
                             <div>Ежедневно</div>
                         </div>
                     </div>

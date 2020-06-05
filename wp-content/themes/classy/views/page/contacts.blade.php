@@ -39,10 +39,10 @@
                                     Телефон:
                                 </div>
                                 <div class="item-contact__description">
-                                    8 (068) 789-76-67
+                                    <a href="tel:+38 068 7897667">8 (068) 789-76-67</a>
                                 </div>
                                 <div class="item-contact__description">
-                                    8 (093) 789-76-67
+                                    <a href="tel:+38 093 7897667">8 (093) 789-76-67</a>
                                 </div>
                             </div>
                         </div>

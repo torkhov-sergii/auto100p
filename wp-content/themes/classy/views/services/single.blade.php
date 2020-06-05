@@ -17,13 +17,13 @@
                 <div class="col-lg-9">
                     @if ($post)
                         <div class="services__main">
-                            @if(!empty($fields['single_new_main_image']))
-                                <div class="text-page__image corner-cut corner-cut_white">
-                                    <img src="{{ $fields['single_new_main_image']['url'] }}" alt="{{ $fields['single_new_main_image']['alt'] }}">
+                            <h1 class="services__title">{!! $post->title() !!}</h1>
+
+                            @if(!empty($post->thumbnail()->ID))
+                                <div class="services__image">
+                                    <img src="{{ \Helpers\Images::getFlyImage($post->thumbnail()->ID, [1500,1500], false) }}">
                                 </div>
                             @endif
-
-                            <h1 class="services__title">{!! $post->title() !!}</h1>
 
                             <div class="services__content">
                                 {!! $post->content() !!}

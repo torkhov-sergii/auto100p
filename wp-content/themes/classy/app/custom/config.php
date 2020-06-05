@@ -119,4 +119,5 @@ $include = array(
     'redirects.php',
     're_order_menu.php',
     'validate.php',
+    'acf/acf-fields.php',
 );

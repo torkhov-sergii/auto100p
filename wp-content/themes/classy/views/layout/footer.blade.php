@@ -1,6 +1,6 @@
 <div class="footer-call">
     <div class="container">
-        <b>Остались вопросы?</b> Задайте их сейчас, позвонив по телефону <span style="white-space: nowrap">8 (068) 789-76-67</span>
+        <b>Остались вопросы?</b> Задайте их сейчас, позвонив по телефону <span style="white-space: nowrap"><a href="tel:+38 068 7897667">8 (068) 789-76-67</a></span>
     </div>
 </div>
 
@@ -49,7 +49,7 @@
                         <a href="/services/remont-avtoelektriki/">Ремонт электрооборудования<i class="fal fa-angle-right"></i></a>
                     </li>
                     <li class="menu-footer__item">
-                        <a href="/services/vosstanovlenie-avto/">Восстановление авто<i class="fal fa-angle-right"></i></a>
+                        <a href="/services/remont-i-restavratsiya-supportov/">Реставрация суппортов<i class="fal fa-angle-right"></i></a>
                     </li>
                 </ul>
             </div>
@@ -62,11 +62,11 @@
                 <h2>КОНАТКТЫ</h2>
 
                <div class="footer__contact">
-                   <i class="fal fa-phone"></i>8 (068) 789-76-67
+                   <i class="fal fa-phone"></i><a href="tel:+38 068 7897667">8 (068) 789-76-67</a>
                </div>
 
                <div class="footer__contact">
-                   <i class="fal fa-phone"></i>8 (093) 789-76-67
+                   <i class="fal fa-phone"></i><a href="tel:+38 093 7897667">8 (093) 789-76-67</a>
                </div>
 
                <div class="footer__contact">
