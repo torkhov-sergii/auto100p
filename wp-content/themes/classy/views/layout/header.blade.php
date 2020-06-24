@@ -4,7 +4,7 @@
         <div class="container">
             <div class="top-strip__list">
                 <div class="top-strip__item">СТО Автосервис на Троещине</div>
-                <div class="top-strip__item"><i class="fal fa-compass"></i>г. Киев, Троещина, ул. Пожарского, 2</div>
+                <div class="top-strip__item"><i class="fal fa-compass"></i>г. Киев, Троещина, ул. Полевая, 29</div>
                 <div class="top-strip__item"><i class="fal fa-envelope"></i><a class="top-strip__link" href="mailto:info@auto100p.com.ua">info@auto100p.com.ua</a></div>
                 <div class="top-strip__item"><i class="fal fa-phone"></i><a class="top-strip__link" href="tel:+38 068 7897667">8 (068) 789-76-67</a></div>
             </div>

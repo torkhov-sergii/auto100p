@@ -74,7 +74,7 @@
                </div>
 
                <div class="footer__contact">
-                   <i class="fal fa-compass"></i>г. Киев, Троещина, ул. Пожарского, 2
+                   <i class="fal fa-compass"></i>г. Киев, Троещина, ул. Полевая, 29
                </div>
             </div>
         </div>
